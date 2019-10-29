@@ -1,0 +1,13 @@
+new_tracker(80,90)
+undo
+redo
+new_tracker(-90, 0)
+undo
+redo
+new_tracker(0,-80)
+undo
+redo
+new_tracker(90,80)
+undo
+redo
+

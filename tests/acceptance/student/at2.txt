@@ -1,0 +1,7 @@
+ new_tracker(50,10)
+ new_phase("pid2","compacting",2,<<glass, metal, plastic>>)
+ new_container("cid1",[glass, 5.5],"pid2")
+ new_container("cid2",[liquid, 0.5],"pid1")
+ undo
+ redo
+
